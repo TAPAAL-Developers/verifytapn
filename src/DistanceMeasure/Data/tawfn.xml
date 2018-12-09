@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pnml xmlns="http://www.informatik.hu-berlin.de/top/pnml/ptNetb">
+  <net active="true" id="TAPN1" type="P/T net">
+    <place displayName="true" id="P0" initialMarking="1" invariant="&lt;= 0" markingOffsetX="0.0" markingOffsetY="0.0" name="P0" nameOffsetX="41.0" nameOffsetY="46.0" positionX="15.0" positionY="150.0"/>
+    <place displayName="true" id="P1" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P1" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="210.0" positionY="165.0"/>
+    <place displayName="true" id="P2" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P2" nameOffsetX="-15.0" nameOffsetY="24.0" positionX="420.0" positionY="120.0"/>
+    <place displayName="true" id="P3" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P3" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="510.0" positionY="180.0"/>
+    <place displayName="true" id="P4" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P4" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="690.0" positionY="270.0"/>
+    <place displayName="true" id="P5" initialMarking="0" invariant="&lt;= 338" markingOffsetX="0.0" markingOffsetY="0.0" name="P5" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="930.0" positionY="195.0"/>
+    <place displayName="true" id="P6" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P6" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1125.0" positionY="120.0"/>
+    <place displayName="true" id="P7" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P7" nameOffsetX="-15.0" nameOffsetY="6.0" positionX="1290.0" positionY="195.0"/>
+    <place displayName="true" id="P8" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P8" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1320.0" positionY="480.0"/>
+    <place displayName="true" id="P9" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P9" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1155.0" positionY="570.0"/>
+    <place displayName="true" id="P10" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P10" nameOffsetX="30.0" nameOffsetY="-13.0" positionX="1515.0" positionY="585.0"/>
+    <place displayName="true" id="P11" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P11" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1095.0" positionY="720.0"/>
+    <place displayName="true" id="P12" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P12" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1380.0" positionY="750.0"/>
+    <place displayName="true" id="P13" initialMarking="0" invariant="&lt; inf" markingOffsetX="0.0" markingOffsetY="0.0" name="P13" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1230.0" positionY="825.0"/>
+    <place displayName="true" id="P14" initialMarking="0" invariant="&lt;= 145" markingOffsetX="0.0" markingOffsetY="0.0" name="P14" nameOffsetX="70.0" nameOffsetY="44.0" positionX="1515.0" positionY="720.0"/>
+    <place displayName="true" id="P15" initialMarking="0" invariant="&lt;= 2554" markingOffsetX="0.0" markingOffsetY="0.0" name="P15" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="225.0" positionY="60.0"/>
+    <place displayName="true" id="P16" initialMarking="0" invariant="&lt;= 0" markingOffsetX="0.0" markingOffsetY="0.0" name="P16" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="420.0" positionY="15.0"/>
+    <place displayName="true" id="P17" initialMarking="0" invariant="&lt;= 211" markingOffsetX="0.0" markingOffsetY="0.0" name="P17" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="780.0" positionY="60.0"/>
+    <place displayName="true" id="P18" initialMarking="0" invariant="&lt;= 581" markingOffsetX="0.0" markingOffsetY="0.0" name="P18" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1290.0" positionY="300.0"/>
+    <place displayName="true" id="P19" initialMarking="0" invariant="&lt;= 363" markingOffsetX="0.0" markingOffsetY="0.0" name="P19" nameOffsetX="103.0" nameOffsetY="0.0" positionX="1185.0" positionY="675.0"/>
+    <place displayName="true" id="P20" initialMarking="0" invariant="&lt;= 3" markingOffsetX="0.0" markingOffsetY="0.0" name="P20" nameOffsetX="46.0" nameOffsetY="43.0" positionX="585.0" positionY="270.0"/>
+    <place displayName="true" id="P21" initialMarking="0" invariant="&lt;= 341" markingOffsetX="0.0" markingOffsetY="0.0" name="P21" nameOffsetX="5.0" nameOffsetY="15.0" positionX="600.0" positionY="15.0"/>
+    <place displayName="true" id="P22" initialMarking="0" invariant="&lt;= 2634" markingOffsetX="0.0" markingOffsetY="0.0" name="P22" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="615.0" positionY="90.0"/>
+    <place displayName="true" id="P23" initialMarking="0" invariant="&lt;= 318" markingOffsetX="0.0" markingOffsetY="0.0" name="P23" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="600.0" positionY="375.0"/>
+    <place displayName="true" id="P24" initialMarking="0" invariant="&lt;= 1253" markingOffsetX="0.0" markingOffsetY="0.0" name="P24" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="795.0" positionY="105.0"/>
+    <place displayName="true" id="P25" initialMarking="0" invariant="&lt;= 470" markingOffsetX="0.0" markingOffsetY="0.0" name="P25" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="795.0" positionY="180.0"/>
+    <place displayName="true" id="P26" initialMarking="0" invariant="&lt;= 0" markingOffsetX="0.0" markingOffsetY="0.0" name="P26" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="795.0" positionY="240.0"/>
+    <transition angle="0" displayName="true" id="T0_ROh_" infiniteServer="false" name="T0_ROh_" nameOffsetX="-1.0" nameOffsetY="-3.0" positionX="105.0" positionY="120.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T1_ROl_" infiniteServer="false" name="T1_ROl_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="105.0" positionY="195.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T2_ROl_" infiniteServer="false" name="T2_ROl_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="315.0" positionY="75.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T4_ROh_" infiniteServer="false" name="T4_ROh_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="315.0" positionY="165.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T5_Tau_" infiniteServer="false" name="T5_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="315.0" positionY="225.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T6_Tau_" infiniteServer="false" name="T6_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="315.0" positionY="300.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T7_Tau_" infiniteServer="false" name="T7_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="420.0" positionY="75.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T8_Tau_" infiniteServer="false" name="T8_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="450.0" positionY="180.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T10_ROh_" infiniteServer="false" name="T10_ROh_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="690.0" positionY="15.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T11_ROh_" infiniteServer="false" name="T11_ROh_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="690.0" positionY="90.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T12_C_" infiniteServer="false" name="T12_C_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="645.0" positionY="270.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T15_ROl_" infiniteServer="false" name="T15_ROl_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="675.0" positionY="420.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T16_ROl_" infiniteServer="false" name="T16_ROl_" nameOffsetX="41.0" nameOffsetY="48.0" positionX="855.0" positionY="15.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T17_ROl_" infiniteServer="false" name="T17_ROl_" nameOffsetX="11.0" nameOffsetY="50.0" positionX="855.0" positionY="75.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T18_ROl_" infiniteServer="false" name="T18_ROl_" nameOffsetX="28.0" nameOffsetY="52.0" positionX="870.0" positionY="150.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T19_C_" infiniteServer="false" name="T19_C_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="855.0" positionY="240.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T20_Tau_" infiniteServer="false" name="T20_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="855.0" positionY="300.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T21_Tau_" infiniteServer="false" name="T21_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="855.0" positionY="360.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T22_ROh_" infiniteServer="false" name="T22_ROh_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1035.0" positionY="120.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T23_Tau_" infiniteServer="false" name="T23_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1290.0" positionY="105.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T24_Tau_" infiniteServer="false" name="T24_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1185.0" positionY="240.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T25_Tau_" infiniteServer="false" name="T25_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1560.0" positionY="390.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T29_RI_" infiniteServer="false" name="T29_RI_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1290.0" positionY="405.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T32_Tau_" infiniteServer="false" name="T32_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1320.0" positionY="540.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T33_Tau_" infiniteServer="false" name="T33_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1095.0" positionY="630.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T34_Tau_" infiniteServer="false" name="T34_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1185.0" positionY="615.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T35_Tau_" infiniteServer="false" name="T35_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1245.0" positionY="750.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T36_Tau_" infiniteServer="false" name="T36_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1425.0" positionY="615.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T37_Tau_" infiniteServer="false" name="T37_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1515.0" positionY="645.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T38_RI_" infiniteServer="false" name="T38_RI_" nameOffsetX="37.0" nameOffsetY="44.0" positionX="1440.0" positionY="720.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T39_Tau_" infiniteServer="false" name="T39_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1455.0" positionY="810.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T40_Tau_" infiniteServer="false" name="T40_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="210.0" positionY="105.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T41_ROh_" infiniteServer="false" name="T41_ROh_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="510.0" positionY="90.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T42_Tau_" infiniteServer="false" name="T42_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="705.0" positionY="120.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T43_Tau_" infiniteServer="false" name="T43_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="1290.0" positionY="255.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T44_RI_" infiniteServer="false" name="T44_RI_" nameOffsetX="10.0" nameOffsetY="-12.0" positionX="1155.0" positionY="705.0" priority="0" urgent="false"/>
+    <transition angle="0" displayName="true" id="T45_Tau_" infiniteServer="false" name="T45_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="570.0" positionY="60.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T46_Tau_" infiniteServer="false" name="T46_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="570.0" positionY="150.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T47_Tau_" infiniteServer="false" name="T47_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="585.0" positionY="210.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T48_Tau_" infiniteServer="false" name="T48_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="540.0" positionY="315.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T49_Tau_" infiniteServer="false" name="T49_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="750.0" positionY="135.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T50_Tau_" infiniteServer="false" name="T50_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="750.0" positionY="195.0" priority="0" urgent="true"/>
+    <transition angle="0" displayName="true" id="T51_Tau_" infiniteServer="false" name="T51_Tau_" nameOffsetX="-5.0" nameOffsetY="35.0" positionX="750.0" positionY="255.0" priority="0" urgent="true"/>
+    <arc id="P0 to T0_ROh_" inscription="[0,0]" source="P0" target="T0_ROh_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="41" yCoord="157"/>
+      <arcpath arcPointType="false" id="1" xCoord="111" yCoord="132"/>
+    </arc>
+    <arc id="P0 to T1_ROl_" inscription="[0,0]" source="P0" target="T1_ROl_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="40" yCoord="169"/>
+      <arcpath arcPointType="false" id="1" xCoord="111" yCoord="207"/>
+    </arc>
+    <arc id="T1_ROl_ to P1" inscription="1" source="T1_ROl_" target="P1" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="121" yCoord="207"/>
+      <arcpath arcPointType="false" id="1" xCoord="207" yCoord="181"/>
+    </arc>
+    <arc id="T0_ROh_ to P1" inscription="1" source="T0_ROh_" target="P1" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="121" yCoord="132"/>
+      <arcpath arcPointType="false" id="1" xCoord="208" yCoord="170"/>
+    </arc>
+    <arc id="P1 to T40_Tau_" inscription="[0,inf)" source="P1" target="T40_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="222" yCoord="162"/>
+      <arcpath arcPointType="false" id="1" xCoord="222" yCoord="132"/>
+    </arc>
+    <arc id="T40_Tau_ to P15" inscription="1" source="T40_Tau_" target="P15" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="222" yCoord="102"/>
+      <arcpath arcPointType="false" id="1" xCoord="230" yCoord="85"/>
+    </arc>
+    <arc id="P15 to T2_ROl_" inscription="[278,2554]" source="P15" target="T2_ROl_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="251" yCoord="74"/>
+      <arcpath arcPointType="false" id="1" xCoord="321" yCoord="87"/>
+    </arc>
+    <arc id="P15 to T4_ROh_" inscription="[248,449]" source="P15" target="T4_ROh_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="246" yCoord="83"/>
+      <arcpath arcPointType="false" id="1" xCoord="321" yCoord="177"/>
+    </arc>
+    <arc id="T2_ROl_ to P2" inscription="1" source="T2_ROl_" target="P2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="331" yCoord="87"/>
+      <arcpath arcPointType="false" id="1" xCoord="418" yCoord="125"/>
+    </arc>
+    <arc id="T4_ROh_ to P2" inscription="1" source="T4_ROh_" target="P2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="331" yCoord="177"/>
+      <arcpath arcPointType="false" id="1" xCoord="418" yCoord="138"/>
+    </arc>
+    <arc id="P1 to T5_Tau_" inscription="[0,inf)" source="P1" target="T5_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="234" yCoord="184"/>
+      <arcpath arcPointType="false" id="1" xCoord="321" yCoord="237"/>
+    </arc>
+    <arc id="T5_Tau_ to P2" inscription="1" source="T5_Tau_" target="P2" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="331" yCoord="237"/>
+      <arcpath arcPointType="false" id="1" xCoord="421" yCoord="142"/>
+    </arc>
+    <arc id="P1 to T6_Tau_" inscription="[0,inf)" source="P1" target="T6_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="230" yCoord="189"/>
+      <arcpath arcPointType="false" id="1" xCoord="321" yCoord="312"/>
+    </arc>
+    <arc id="T6_Tau_ to P7" inscription="1" source="T6_Tau_" target="P7" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="331" yCoord="312"/>
+      <arcpath arcPointType="false" id="1" xCoord="615" yCoord="615"/>
+      <arcpath arcPointType="false" id="2" xCoord="1020" yCoord="420"/>
+      <arcpath arcPointType="false" id="3" xCoord="1290" yCoord="216"/>
+    </arc>
+    <arc id="P2 to T7_Tau_" inscription="[0,inf)" source="P2" target="T7_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="432" yCoord="117"/>
+      <arcpath arcPointType="false" id="1" xCoord="432" yCoord="102"/>
+    </arc>
+    <arc id="T7_Tau_ to P16" inscription="1" source="T7_Tau_" target="P16" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="432" yCoord="72"/>
+      <arcpath arcPointType="false" id="1" xCoord="432" yCoord="41"/>
+    </arc>
+    <arc id="P16 to T41_ROh_" inscription="[0,0]" source="P16" target="T41_ROh_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="443" yCoord="36"/>
+      <arcpath arcPointType="false" id="1" xCoord="516" yCoord="102"/>
+    </arc>
+    <arc id="T41_ROh_ to P3" inscription="1" source="T41_ROh_" target="P3" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="522" yCoord="117"/>
+      <arcpath arcPointType="false" id="1" xCoord="522" yCoord="177"/>
+    </arc>
+    <arc id="P2 to T8_Tau_" inscription="[0,inf)" source="P2" target="T8_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="440" yCoord="144"/>
+      <arcpath arcPointType="false" id="1" xCoord="462" yCoord="177"/>
+    </arc>
+    <arc id="T8_Tau_ to P3" inscription="1" source="T8_Tau_" target="P3" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="466" yCoord="192"/>
+      <arcpath arcPointType="false" id="1" xCoord="507" yCoord="192"/>
+    </arc>
+    <arc id="T12_C_ to P4" inscription="1" source="T12_C_" target="P4" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="661" yCoord="282"/>
+      <arcpath arcPointType="false" id="1" xCoord="687" yCoord="282"/>
+    </arc>
+    <arc id="P5 to T22" inscription="[15,338]" source="P5" target="T22_ROh_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="954" yCoord="198"/>
+      <arcpath arcPointType="false" id="1" xCoord="1041" yCoord="132"/>
+    </arc>
+    <arc id="T22 to P6" inscription="1" source="T22_ROh_" target="P6" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1051" yCoord="132"/>
+      <arcpath arcPointType="false" id="1" xCoord="1122" yCoord="132"/>
+    </arc>
+    <arc id="T15_ROl_ to P6" inscription="1" source="T15_ROl_" target="P6" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="691" yCoord="432"/>
+      <arcpath arcPointType="false" id="1" xCoord="810" yCoord="450"/>
+      <arcpath arcPointType="false" id="2" xCoord="960" yCoord="435"/>
+      <arcpath arcPointType="false" id="3" xCoord="1170" yCoord="345"/>
+      <arcpath arcPointType="false" id="4" xCoord="1139" yCoord="146"/>
+    </arc>
+    <arc id="P6 to T24_Tau_" inscription="[0,inf)" source="P6" target="T24_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1144" yCoord="144"/>
+      <arcpath arcPointType="false" id="1" xCoord="1197" yCoord="237"/>
+    </arc>
+    <arc id="T24_Tau_ to P3" inscription="1" source="T24_Tau_" target="P3" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1191" yCoord="252"/>
+      <arcpath arcPointType="false" id="1" xCoord="915" yCoord="555"/>
+      <arcpath arcPointType="false" id="2" xCoord="510" yCoord="420"/>
+      <arcpath arcPointType="false" id="3" xCoord="521" yCoord="206"/>
+    </arc>
+    <arc id="T11_ROh_ to P6" inscription="1" source="T11_ROh_" target="P6" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="706" yCoord="102"/>
+      <arcpath arcPointType="false" id="1" xCoord="825" yCoord="15"/>
+      <arcpath arcPointType="false" id="2" xCoord="1140" yCoord="15"/>
+      <arcpath arcPointType="false" id="3" xCoord="1137" yCoord="117"/>
+    </arc>
+    <arc id="T10_ROh_ to P6" inscription="1" source="T10_ROh_" target="P6" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="706" yCoord="27"/>
+      <arcpath arcPointType="false" id="1" xCoord="810" yCoord="15"/>
+      <arcpath arcPointType="false" id="2" xCoord="1185" yCoord="15"/>
+      <arcpath arcPointType="false" id="3" xCoord="1142" yCoord="118"/>
+    </arc>
+    <arc id="T19_C_ to P5" inscription="1" source="T19_C_" target="P5" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="871" yCoord="252"/>
+      <arcpath arcPointType="false" id="1" xCoord="929" yCoord="215"/>
+    </arc>
+    <arc id="P4 to T42_Tau_" inscription="[0,inf)" source="P4" target="T42_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="703" yCoord="267"/>
+      <arcpath arcPointType="false" id="1" xCoord="717" yCoord="147"/>
+    </arc>
+    <arc id="T42_Tau_ to P17" inscription="1" source="T42_Tau_" target="P17" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="721" yCoord="132"/>
+      <arcpath arcPointType="false" id="1" xCoord="780" yCoord="81"/>
+    </arc>
+    <arc id="P4 to T20_Tau_" inscription="[0,inf)" source="P4" target="T20_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="716" yCoord="284"/>
+      <arcpath arcPointType="false" id="1" xCoord="861" yCoord="312"/>
+    </arc>
+    <arc id="T20_Tau_ to P5" inscription="1" source="T20_Tau_" target="P5" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="871" yCoord="312"/>
+      <arcpath arcPointType="false" id="1" xCoord="933" yCoord="219"/>
+    </arc>
+    <arc id="P4 to T21_Tau_" inscription="[0,inf)" source="P4" target="T21_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="715" yCoord="289"/>
+      <arcpath arcPointType="false" id="1" xCoord="861" yCoord="372"/>
+    </arc>
+    <arc id="T21_Tau_ to P6" inscription="1" source="T21_Tau_" target="P6" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="871" yCoord="372"/>
+      <arcpath arcPointType="false" id="1" xCoord="1125" yCoord="142"/>
+    </arc>
+    <arc id="P17 to T16" inscription="[49,211]" source="P17" target="T16_ROl_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="804" yCoord="63"/>
+      <arcpath arcPointType="false" id="1" xCoord="861" yCoord="27"/>
+    </arc>
+    <arc id="T16 to P6" inscription="1" source="T16_ROl_" target="P6" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="871" yCoord="27"/>
+      <arcpath arcPointType="false" id="1" xCoord="1110" yCoord="30"/>
+      <arcpath arcPointType="false" id="2" xCoord="1133" yCoord="117"/>
+    </arc>
+    <arc id="T17 to P6" inscription="1" source="T17_ROl_" target="P6" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="871" yCoord="87"/>
+      <arcpath arcPointType="false" id="1" xCoord="1080" yCoord="60"/>
+      <arcpath arcPointType="false" id="2" xCoord="1127" yCoord="120"/>
+    </arc>
+    <arc id="T18_ROl_ to P6" inscription="1" source="T18_ROl_" target="P6" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="886" yCoord="162"/>
+      <arcpath arcPointType="false" id="1" xCoord="1050" yCoord="75"/>
+      <arcpath arcPointType="false" id="2" xCoord="1124" yCoord="123"/>
+    </arc>
+    <arc id="P6 to T23_Tau_" inscription="[0,inf)" source="P6" target="T23_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1151" yCoord="130"/>
+      <arcpath arcPointType="false" id="1" xCoord="1296" yCoord="117"/>
+    </arc>
+    <arc id="T23_Tau_ to P7" inscription="1" source="T23_Tau_" target="P7" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1302" yCoord="132"/>
+      <arcpath arcPointType="false" id="1" xCoord="1302" yCoord="192"/>
+    </arc>
+    <arc id="P7 to T43_Tau_" inscription="[0,inf)" source="P7" target="T43_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1302" yCoord="221"/>
+      <arcpath arcPointType="false" id="1" xCoord="1302" yCoord="252"/>
+    </arc>
+    <arc id="T43_Tau_ to P18" inscription="1" source="T43_Tau_" target="P18" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1302" yCoord="282"/>
+      <arcpath arcPointType="false" id="1" xCoord="1302" yCoord="297"/>
+    </arc>
+    <arc id="P7 to T25_Tau_" inscription="[0,inf)" source="P7" target="T25_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1314" yCoord="215"/>
+      <arcpath arcPointType="false" id="1" xCoord="1566" yCoord="402"/>
+    </arc>
+    <arc id="T25_Tau_ to P8" inscription="1" source="T25_Tau_" target="P8" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1572" yCoord="417"/>
+      <arcpath arcPointType="false" id="1" xCoord="1575" yCoord="495"/>
+      <arcpath arcPointType="false" id="2" xCoord="1346" yCoord="492"/>
+    </arc>
+    <arc id="P18 to T29_RI_" inscription="[4,581]" source="P18" target="T29_RI_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1302" yCoord="326"/>
+      <arcpath arcPointType="false" id="1" xCoord="1302" yCoord="402"/>
+    </arc>
+    <arc id="T29_RI_ to P8" inscription="1" source="T29_RI_" target="P8" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1302" yCoord="432"/>
+      <arcpath arcPointType="false" id="1" xCoord="1325" yCoord="478"/>
+    </arc>
+    <arc id="P8 to T32" inscription="[0,inf)" source="P8" target="T32_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1332" yCoord="506"/>
+      <arcpath arcPointType="false" id="1" xCoord="1332" yCoord="537"/>
+    </arc>
+    <arc id="T32 to P9" inscription="1" source="T32_Tau_" target="P9" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1326" yCoord="552"/>
+      <arcpath arcPointType="false" id="1" xCoord="1181" yCoord="579"/>
+    </arc>
+    <arc id="T32 to P10" inscription="1" source="T32_Tau_" target="P10" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1336" yCoord="552"/>
+      <arcpath arcPointType="false" id="1" xCoord="1512" yCoord="593"/>
+    </arc>
+    <arc id="P9 to T33_Tau_" inscription="[0,inf)" source="P9" target="T33_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1156" yCoord="593"/>
+      <arcpath arcPointType="false" id="1" xCoord="1111" yCoord="642"/>
+    </arc>
+    <arc id="T33_Tau_ to P11" inscription="1" source="T33_Tau_" target="P11" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1107" yCoord="657"/>
+      <arcpath arcPointType="false" id="1" xCoord="1107" yCoord="717"/>
+    </arc>
+    <arc id="P9 to T34_Tau_" inscription="[0,inf)" source="P9" target="T34_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1174" yCoord="595"/>
+      <arcpath arcPointType="false" id="1" xCoord="1191" yCoord="627"/>
+    </arc>
+    <arc id="T34_Tau_ to P19" inscription="1" source="T34_Tau_" target="P19" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1197" yCoord="642"/>
+      <arcpath arcPointType="false" id="1" xCoord="1197" yCoord="672"/>
+    </arc>
+    <arc id="P19 to T44" inscription="[146,363]" source="P19" target="T44_RI_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1187" yCoord="698"/>
+      <arcpath arcPointType="false" id="1" xCoord="1171" yCoord="717"/>
+    </arc>
+    <arc id="T44 to P11" inscription="1" source="T44_RI_" target="P11" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1161" yCoord="717"/>
+      <arcpath arcPointType="false" id="1" xCoord="1121" yCoord="728"/>
+    </arc>
+    <arc id="P11 to T35_Tau_" inscription="[0,inf)" source="P11" target="T35_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1121" yCoord="735"/>
+      <arcpath arcPointType="false" id="1" xCoord="1251" yCoord="762"/>
+    </arc>
+    <arc id="T35_Tau_ to P13" inscription="1" source="T35_Tau_" target="P13" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1257" yCoord="777"/>
+      <arcpath arcPointType="false" id="1" xCoord="1245" yCoord="822"/>
+    </arc>
+    <arc id="P10 to T36_Tau_" inscription="[0,inf)" source="P10" target="T36_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1512" yCoord="602"/>
+      <arcpath arcPointType="false" id="1" xCoord="1441" yCoord="627"/>
+    </arc>
+    <arc id="T36_Tau_ to P12" inscription="1" source="T36_Tau_" target="P12" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1437" yCoord="642"/>
+      <arcpath arcPointType="false" id="1" xCoord="1397" yCoord="747"/>
+    </arc>
+    <arc id="P12 to T35_Tau_" inscription="[0,inf)" source="P12" target="T35_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1377" yCoord="762"/>
+      <arcpath arcPointType="false" id="1" xCoord="1261" yCoord="762"/>
+    </arc>
+    <arc id="P10 to T37_Tau_" inscription="[0,inf)" source="P10" target="T37_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1527" yCoord="611"/>
+      <arcpath arcPointType="false" id="1" xCoord="1527" yCoord="642"/>
+    </arc>
+    <arc id="T37_Tau_ to P14" inscription="1" source="T37_Tau_" target="P14" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1527" yCoord="672"/>
+      <arcpath arcPointType="false" id="1" xCoord="1527" yCoord="717"/>
+    </arc>
+    <arc id="P14 to T38" inscription="[0,145]" source="P14" target="T38_RI_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1512" yCoord="732"/>
+      <arcpath arcPointType="false" id="1" xCoord="1456" yCoord="732"/>
+    </arc>
+    <arc id="T38 to P12" inscription="1" source="T38_RI_" target="P12" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1446" yCoord="732"/>
+      <arcpath arcPointType="false" id="1" xCoord="1405" yCoord="754"/>
+    </arc>
+    <arc id="P12 to T39_Tau_" inscription="[0,inf)" source="P12" target="T39_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1403" yCoord="771"/>
+      <arcpath arcPointType="false" id="1" xCoord="1461" yCoord="822"/>
+    </arc>
+    <arc id="T39_Tau_ to P14" inscription="1" source="T39_Tau_" target="P14" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="1471" yCoord="822"/>
+      <arcpath arcPointType="false" id="1" xCoord="1519" yCoord="744"/>
+    </arc>
+    <arc id="P3 to T45_Tau_" inscription="[0,inf)" source="P3" target="T45_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="529" yCoord="178"/>
+      <arcpath arcPointType="false" id="1" xCoord="582" yCoord="87"/>
+    </arc>
+    <arc id="P3 to T46_Tau_" inscription="[0,inf)" source="P3" target="T46_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="535" yCoord="184"/>
+      <arcpath arcPointType="false" id="1" xCoord="576" yCoord="162"/>
+    </arc>
+    <arc id="P3 to T47_Tau_" inscription="[0,inf)" source="P3" target="T47_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="535" yCoord="198"/>
+      <arcpath arcPointType="false" id="1" xCoord="591" yCoord="222"/>
+    </arc>
+    <arc id="P3 to T48_Tau_" inscription="[0,inf)" source="P3" target="T48_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="525" yCoord="206"/>
+      <arcpath arcPointType="false" id="1" xCoord="552" yCoord="312"/>
+    </arc>
+    <arc id="T48_Tau_ to P23" inscription="1" source="T48_Tau_" target="P23" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="556" yCoord="327"/>
+      <arcpath arcPointType="false" id="1" xCoord="601" yCoord="375"/>
+    </arc>
+    <arc id="T47_Tau_ to P20" inscription="1" source="T47_Tau_" target="P20" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="597" yCoord="237"/>
+      <arcpath arcPointType="false" id="1" xCoord="597" yCoord="267"/>
+    </arc>
+    <arc id="T46_Tau_ to P22" inscription="1" source="T46_Tau_" target="P22" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="586" yCoord="162"/>
+      <arcpath arcPointType="false" id="1" xCoord="618" yCoord="114"/>
+    </arc>
+    <arc id="T45_Tau_ to P21" inscription="1" source="T45_Tau_" target="P21" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="582" yCoord="57"/>
+      <arcpath arcPointType="false" id="1" xCoord="601" yCoord="37"/>
+    </arc>
+    <arc id="P21 to T10_ROh_" inscription="[24,341]" source="P21" target="T10_ROh_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="626" yCoord="27"/>
+      <arcpath arcPointType="false" id="1" xCoord="696" yCoord="27"/>
+    </arc>
+    <arc id="P22 to T11_ROh_" inscription="[1002,2634]" source="P22" target="T11_ROh_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="641" yCoord="102"/>
+      <arcpath arcPointType="false" id="1" xCoord="696" yCoord="102"/>
+    </arc>
+    <arc id="P20 to T12_C_" inscription="[0,3]" source="P20" target="T12_C_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="611" yCoord="282"/>
+      <arcpath arcPointType="false" id="1" xCoord="651" yCoord="282"/>
+    </arc>
+    <arc id="P23 to T15_ROl_" inscription="[26,318]" source="P23" target="T15_ROl_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="624" yCoord="395"/>
+      <arcpath arcPointType="false" id="1" xCoord="681" yCoord="432"/>
+    </arc>
+    <arc id="P4 to T49_Tau_" inscription="[0,inf)" source="P4" target="T49_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="708" yCoord="268"/>
+      <arcpath arcPointType="false" id="1" xCoord="762" yCoord="162"/>
+    </arc>
+    <arc id="P4 to T51_Tau_" inscription="[0,inf)" source="P4" target="T51_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="716" yCoord="278"/>
+      <arcpath arcPointType="false" id="1" xCoord="756" yCoord="267"/>
+    </arc>
+    <arc id="T51_Tau_ to P26" inscription="1" source="T51_Tau_" target="P26" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="766" yCoord="267"/>
+      <arcpath arcPointType="false" id="1" xCoord="792" yCoord="257"/>
+    </arc>
+    <arc id="P4 to T50_Tau_" inscription="[0,inf)" source="P4" target="T50_Tau_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="710" yCoord="269"/>
+      <arcpath arcPointType="false" id="1" xCoord="756" yCoord="207"/>
+    </arc>
+    <arc id="T50_Tau_ to P25" inscription="1" source="T50_Tau_" target="P25" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="766" yCoord="207"/>
+      <arcpath arcPointType="false" id="1" xCoord="792" yCoord="197"/>
+    </arc>
+    <arc id="T49_Tau_ to P24" inscription="1" source="T49_Tau_" target="P24" type="normal" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="766" yCoord="147"/>
+      <arcpath arcPointType="false" id="1" xCoord="795" yCoord="126"/>
+    </arc>
+    <arc id="P24 to T17" inscription="[543,1253]" source="P24" target="T17_ROl_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="820" yCoord="109"/>
+      <arcpath arcPointType="false" id="1" xCoord="861" yCoord="87"/>
+    </arc>
+    <arc id="P25 to T18_ROl_" inscription="[213,470]" source="P25" target="T18_ROl_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="820" yCoord="186"/>
+      <arcpath arcPointType="false" id="1" xCoord="876" yCoord="162"/>
+    </arc>
+    <arc id="P26 to T19_C_" inscription="[0,0]" source="P26" target="T19_C_" type="timed" weight="1">
+      <arcpath arcPointType="false" id="0" xCoord="817" yCoord="262"/>
+      <arcpath arcPointType="false" id="1" xCoord="810" yCoord="255"/>
+      <arcpath arcPointType="false" id="2" xCoord="861" yCoord="252"/>
+    </arc>
+  </net>
+  <query active="true" approximationDenominator="2" capacity="4" discreteInclusion="false" enableOverApproximation="false" enableUnderApproximation="false" extrapolationOption="null" gcd="true" hashTableSize="null" inclusionPlaces="*NONE*" name="Query Comment/Name Here" overApproximation="true" pTrie="true" query="EF &lt;*&gt;" reduction="true" reductionOption="VerifyTAPNdiscreteVerification" searchOption="HEURISTIC" symmetry="true" timeDarts="false" traceOption="NONE"/>
+  <k-bound bound="3"/>
+</pnml>

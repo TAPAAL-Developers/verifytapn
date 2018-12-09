@@ -1,0 +1,3 @@
+/home/gblegmand/git/sw9_kode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gblegmand/git/sw9_kode/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gblegmand/git/sw9_kode/cmake-build-debug/CMakeFiles/sw9_kode.dir

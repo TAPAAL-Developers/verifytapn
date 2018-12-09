@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sw9_kode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/gblegmand/git/sw9_kode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/gblegmand/git/sw9_kode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/gblegmand/git/sw9_kode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sw9_kode">
+				<Option output="/home/gblegmand/git/sw9_kode/cmake-build-debug/sw9_kode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gblegmand/git/sw9_kode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gblegmand/git/sw9_kode/PUBLIC"/>
+					<Add directory="/home/gblegmand/git/sw9_kode/lib"/>
+					<Add directory="/home/gblegmand/git/sw9_kode/src/Core"/>
+					<Add directory="/home/gblegmand/git/sw9_kode/src/DiscreteVerification"/>
+					<Add directory="/home/gblegmand/git/sw9_kode/src/DistanceMeasure"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 sw9_kode"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sw9_kode/fast">
+				<Option output="/home/gblegmand/git/sw9_kode/cmake-build-debug/sw9_kode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gblegmand/git/sw9_kode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/gblegmand/git/sw9_kode/PUBLIC"/>
+					<Add directory="/home/gblegmand/git/sw9_kode/lib"/>
+					<Add directory="/home/gblegmand/git/sw9_kode/src/Core"/>
+					<Add directory="/home/gblegmand/git/sw9_kode/src/DiscreteVerification"/>
+					<Add directory="/home/gblegmand/git/sw9_kode/src/DistanceMeasure"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 sw9_kode/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gblegmand/git/sw9_kode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/gblegmand/git/sw9_kode/cross-compilation/endian.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/lib/rapidxml-1.13/rapidxml.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/lib/rapidxml-1.13/rapidxml_iterators.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/lib/rapidxml-1.13/rapidxml_print.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/lib/rapidxml-1.13/rapidxml_utils.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/ArgsParser.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/ArgsParser.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/AST.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/AST.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/Generated/lexer.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/Generated/location.hh">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/Generated/parser.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/Generated/parser.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/Generated/position.hh">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/Generated/stack.hh">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/NormalizationVisitor.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/NormalizationVisitor.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/TAPNQueryParser.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/TAPNQueryParser.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/QueryParser/Visitor.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/InhibitorArc.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/InhibitorArc.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/OutputArc.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/OutputArc.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TAPN.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimeInterval.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimeInterval.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimeInvariant.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimeInvariant.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimedArcPetriNet.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimedArcPetriNet.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimedInputArc.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimedInputArc.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimedPlace.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimedPlace.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimedTransition.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TimedTransition.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TransportArc.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPN/TransportArc.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPNParser/TAPNXmlParser.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPNParser/TAPNXmlParser.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPNParser/util.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/TAPNParser/util.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/VerificationOptions.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/Core/VerificationOptions.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/CoveredMarkingVisitor.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/CoveredMarkingVisitor.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/MarkingEncoder.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/MarkingStore.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/MetaData.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/NonStrictMarking.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/NonStrictMarkingBase.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/NonStrictMarkingBase.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/PTrieMarkingStore.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/PWList.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/PWList.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/SimpleMarkingStore.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/TimeDart.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/TimeDartLivenessPWList.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/TimeDartLivenessPWList.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/TimeDartPWList.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/TimeDartPWList.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/Waiting.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/WaitingList.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/WaitingList.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/WorkflowPWList.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/WorkflowPWList.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/binarywrapper.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/ptrie.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DataStructures/visitor.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DeadlockVisitor.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DeadlockVisitor.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DiscreteVerification.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/DiscreteVerification.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/Generator.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/Generator.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/PlaceVisitor.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/PlaceVisitor.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/QueryVisitor.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/ReducingGenerator.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/ReducingGenerator.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/LivenessWeightQueryVisitor.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/LivenessWeightQueryVisitor.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/NonStrictBFS.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/NonStrictDFS.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/NonStrictDFSHeuristic.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/NonStrictDFSRandom.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/NonStrictHeuristic.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/NonStrictRandom.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/SearchFactory.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/SearchStrategies.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/SearchStrategy.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/WeightQueryVisitor.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/WeightQueryVisitor.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/SearchStrategies/WorkflowMinFirst.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/TimeDartSuccessorGenerator.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/TimeDartSuccessorGenerator.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/Util/IntervalOps.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/Util/IntervalOps.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/AbstractNaiveVerification.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/LivenessSearch.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/LivenessSearch.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/SafetySynthesis.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/SafetySynthesis.h">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/TimeDartLiveness.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/TimeDartLiveness.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/TimeDartReachabilitySearch.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/TimeDartReachabilitySearch.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/TimeDartVerification.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/TimeDartVerification.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/Verification.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/Workflow.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/WorkflowSoundness.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/WorkflowSoundness.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/WorkflowStrongSoundness.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DiscreteVerification/VerificationTypes/WorkflowStrongSoundness.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DistanceMeasure/Distance.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DistanceMeasure/Distance.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DistanceMeasure/TET/TimedEventTrace.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DistanceMeasure/TET/TimedEventTrace.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DistanceMeasure/TETParser/TETXmlParser.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/DistanceMeasure/TETParser/TETXmlParser.hpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/src/main.cpp">
+			<Option target="sw9_kode"/>
+		</Unit>
+		<Unit filename="/home/gblegmand/git/sw9_kode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

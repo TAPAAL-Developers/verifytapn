@@ -1,0 +1,119 @@
+<pnml>
+<net id="ComposedModel" type="P/T net">
+<place id="TAPN1_P0" name="TAPN1_P0" invariant="&lt;= 0" initialMarking="1" />
+<place id="TAPN1_P1" name="TAPN1_P1" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P2" name="TAPN1_P2" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P3" name="TAPN1_P3" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P4" name="TAPN1_P4" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P5" name="TAPN1_P5" invariant="&lt;= 338" initialMarking="0" />
+<place id="TAPN1_P6" name="TAPN1_P6" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P7" name="TAPN1_P7" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P8" name="TAPN1_P8" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P9" name="TAPN1_P9" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P10" name="TAPN1_P10" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P11" name="TAPN1_P11" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P12" name="TAPN1_P12" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P13" name="TAPN1_P13" invariant="&lt; inf" initialMarking="0" />
+<place id="TAPN1_P14" name="TAPN1_P14" invariant="&lt;= 145" initialMarking="0" />
+<place id="TAPN1_P15" name="TAPN1_P15" invariant="&lt;= 2554" initialMarking="0" />
+<place id="TAPN1_P16" name="TAPN1_P16" invariant="&lt;= 0" initialMarking="0" />
+<place id="TAPN1_P17" name="TAPN1_P17" invariant="&lt;= 211" initialMarking="0" />
+<place id="TAPN1_P18" name="TAPN1_P18" invariant="&lt;= 581" initialMarking="0" />
+<place id="TAPN1_P19" name="TAPN1_P19" invariant="&lt;= 363" initialMarking="0" />
+<place id="TAPN1_P20" name="TAPN1_P20" invariant="&lt;= 3" initialMarking="0" />
+<place id="TAPN1_P21" name="TAPN1_P21" invariant="&lt;= 341" initialMarking="0" />
+<place id="TAPN1_P22" name="TAPN1_P22" invariant="&lt;= 2634" initialMarking="0" />
+<place id="TAPN1_P23" name="TAPN1_P23" invariant="&lt;= 318" initialMarking="0" />
+<place id="TAPN1_P24" name="TAPN1_P24" invariant="&lt;= 1253" initialMarking="0" />
+<place id="TAPN1_P25" name="TAPN1_P25" invariant="&lt;= 470" initialMarking="0" />
+<place id="TAPN1_P26" name="TAPN1_P26" invariant="&lt;= 0" initialMarking="0" />
+<transition id="TAPN1_T0_ROh_" name="TAPN1_T0_ROh_" urgent="false"/><transition id="TAPN1_T1_ROl_" name="TAPN1_T1_ROl_" urgent="false"/><transition id="TAPN1_T2_ROl_" name="TAPN1_T2_ROl_" urgent="false"/><transition id="TAPN1_T4_ROh_" name="TAPN1_T4_ROh_" urgent="false"/><transition id="TAPN1_T5_Tau_" name="TAPN1_T5_Tau_" urgent="true"/><transition id="TAPN1_T6_Tau_" name="TAPN1_T6_Tau_" urgent="true"/><transition id="TAPN1_T7_Tau_" name="TAPN1_T7_Tau_" urgent="true"/><transition id="TAPN1_T8_Tau_" name="TAPN1_T8_Tau_" urgent="true"/><transition id="TAPN1_T10_ROh_" name="TAPN1_T10_ROh_" urgent="false"/><transition id="TAPN1_T11_ROh_" name="TAPN1_T11_ROh_" urgent="false"/><transition id="TAPN1_T12_C_" name="TAPN1_T12_C_" urgent="false"/><transition id="TAPN1_T15_ROl_" name="TAPN1_T15_ROl_" urgent="false"/><transition id="TAPN1_T16_ROl_" name="TAPN1_T16_ROl_" urgent="false"/><transition id="TAPN1_T17_ROl_" name="TAPN1_T17_ROl_" urgent="false"/><transition id="TAPN1_T18_ROl_" name="TAPN1_T18_ROl_" urgent="false"/><transition id="TAPN1_T19_C_" name="TAPN1_T19_C_" urgent="false"/><transition id="TAPN1_T20_Tau_" name="TAPN1_T20_Tau_" urgent="true"/><transition id="TAPN1_T21_Tau_" name="TAPN1_T21_Tau_" urgent="true"/><transition id="TAPN1_T22_ROh_" name="TAPN1_T22_ROh_" urgent="false"/><transition id="TAPN1_T23_Tau_" name="TAPN1_T23_Tau_" urgent="true"/><transition id="TAPN1_T24_Tau_" name="TAPN1_T24_Tau_" urgent="true"/><transition id="TAPN1_T25_Tau_" name="TAPN1_T25_Tau_" urgent="true"/><transition id="TAPN1_T29_RI_" name="TAPN1_T29_RI_" urgent="false"/><transition id="TAPN1_T32_Tau_" name="TAPN1_T32_Tau_" urgent="true"/><transition id="TAPN1_T33_Tau_" name="TAPN1_T33_Tau_" urgent="true"/><transition id="TAPN1_T34_Tau_" name="TAPN1_T34_Tau_" urgent="true"/><transition id="TAPN1_T35_Tau_" name="TAPN1_T35_Tau_" urgent="true"/><transition id="TAPN1_T36_Tau_" name="TAPN1_T36_Tau_" urgent="true"/><transition id="TAPN1_T37_Tau_" name="TAPN1_T37_Tau_" urgent="true"/><transition id="TAPN1_T38_RI_" name="TAPN1_T38_RI_" urgent="false"/><transition id="TAPN1_T39_Tau_" name="TAPN1_T39_Tau_" urgent="true"/><transition id="TAPN1_T40_Tau_" name="TAPN1_T40_Tau_" urgent="true"/><transition id="TAPN1_T41_ROh_" name="TAPN1_T41_ROh_" urgent="false"/><transition id="TAPN1_T42_Tau_" name="TAPN1_T42_Tau_" urgent="true"/><transition id="TAPN1_T43_Tau_" name="TAPN1_T43_Tau_" urgent="true"/><transition id="TAPN1_T44_RI_" name="TAPN1_T44_RI_" urgent="false"/><transition id="TAPN1_T45_Tau_" name="TAPN1_T45_Tau_" urgent="true"/><transition id="TAPN1_T46_Tau_" name="TAPN1_T46_Tau_" urgent="true"/><transition id="TAPN1_T47_Tau_" name="TAPN1_T47_Tau_" urgent="true"/><transition id="TAPN1_T48_Tau_" name="TAPN1_T48_Tau_" urgent="true"/><transition id="TAPN1_T49_Tau_" name="TAPN1_T49_Tau_" urgent="true"/><transition id="TAPN1_T50_Tau_" name="TAPN1_T50_Tau_" urgent="true"/><transition id="TAPN1_T51_Tau_" name="TAPN1_T51_Tau_" urgent="true"/><inputArc inscription="[0,0]" source="TAPN1_P0" target="TAPN1_T0_ROh_" />
+<inputArc inscription="[0,0]" source="TAPN1_P0" target="TAPN1_T1_ROl_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P1" target="TAPN1_T40_Tau_" />
+<inputArc inscription="[278,2554]" source="TAPN1_P15" target="TAPN1_T2_ROl_" />
+<inputArc inscription="[248,449]" source="TAPN1_P15" target="TAPN1_T4_ROh_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P1" target="TAPN1_T5_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P1" target="TAPN1_T6_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P2" target="TAPN1_T7_Tau_" />
+<inputArc inscription="[0,0]" source="TAPN1_P16" target="TAPN1_T41_ROh_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P2" target="TAPN1_T8_Tau_" />
+<inputArc inscription="[15,338]" source="TAPN1_P5" target="TAPN1_T22_ROh_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P6" target="TAPN1_T24_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P4" target="TAPN1_T42_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P4" target="TAPN1_T20_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P4" target="TAPN1_T21_Tau_" />
+<inputArc inscription="[49,211]" source="TAPN1_P17" target="TAPN1_T16_ROl_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P6" target="TAPN1_T23_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P7" target="TAPN1_T43_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P7" target="TAPN1_T25_Tau_" />
+<inputArc inscription="[4,581]" source="TAPN1_P18" target="TAPN1_T29_RI_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P8" target="TAPN1_T32_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P9" target="TAPN1_T33_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P9" target="TAPN1_T34_Tau_" />
+<inputArc inscription="[146,363]" source="TAPN1_P19" target="TAPN1_T44_RI_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P11" target="TAPN1_T35_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P10" target="TAPN1_T36_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P12" target="TAPN1_T35_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P10" target="TAPN1_T37_Tau_" />
+<inputArc inscription="[0,145]" source="TAPN1_P14" target="TAPN1_T38_RI_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P12" target="TAPN1_T39_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P3" target="TAPN1_T45_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P3" target="TAPN1_T46_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P3" target="TAPN1_T47_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P3" target="TAPN1_T48_Tau_" />
+<inputArc inscription="[24,341]" source="TAPN1_P21" target="TAPN1_T10_ROh_" />
+<inputArc inscription="[1002,2634]" source="TAPN1_P22" target="TAPN1_T11_ROh_" />
+<inputArc inscription="[0,3]" source="TAPN1_P20" target="TAPN1_T12_C_" />
+<inputArc inscription="[26,318]" source="TAPN1_P23" target="TAPN1_T15_ROl_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P4" target="TAPN1_T49_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P4" target="TAPN1_T51_Tau_" />
+<inputArc inscription="[0,inf)" source="TAPN1_P4" target="TAPN1_T50_Tau_" />
+<inputArc inscription="[543,1253]" source="TAPN1_P24" target="TAPN1_T17_ROl_" />
+<inputArc inscription="[213,470]" source="TAPN1_P25" target="TAPN1_T18_ROl_" />
+<inputArc inscription="[0,0]" source="TAPN1_P26" target="TAPN1_T19_C_" />
+<outputArc inscription="1" source="TAPN1_T1_ROl_" target="TAPN1_P1" />
+<outputArc inscription="1" source="TAPN1_T0_ROh_" target="TAPN1_P1" />
+<outputArc inscription="1" source="TAPN1_T40_Tau_" target="TAPN1_P15" />
+<outputArc inscription="1" source="TAPN1_T2_ROl_" target="TAPN1_P2" />
+<outputArc inscription="1" source="TAPN1_T4_ROh_" target="TAPN1_P2" />
+<outputArc inscription="1" source="TAPN1_T5_Tau_" target="TAPN1_P2" />
+<outputArc inscription="1" source="TAPN1_T6_Tau_" target="TAPN1_P7" />
+<outputArc inscription="1" source="TAPN1_T7_Tau_" target="TAPN1_P16" />
+<outputArc inscription="1" source="TAPN1_T41_ROh_" target="TAPN1_P3" />
+<outputArc inscription="1" source="TAPN1_T8_Tau_" target="TAPN1_P3" />
+<outputArc inscription="1" source="TAPN1_T12_C_" target="TAPN1_P4" />
+<outputArc inscription="1" source="TAPN1_T22_ROh_" target="TAPN1_P6" />
+<outputArc inscription="1" source="TAPN1_T15_ROl_" target="TAPN1_P6" />
+<outputArc inscription="1" source="TAPN1_T24_Tau_" target="TAPN1_P3" />
+<outputArc inscription="1" source="TAPN1_T11_ROh_" target="TAPN1_P6" />
+<outputArc inscription="1" source="TAPN1_T10_ROh_" target="TAPN1_P6" />
+<outputArc inscription="1" source="TAPN1_T19_C_" target="TAPN1_P5" />
+<outputArc inscription="1" source="TAPN1_T42_Tau_" target="TAPN1_P17" />
+<outputArc inscription="1" source="TAPN1_T20_Tau_" target="TAPN1_P5" />
+<outputArc inscription="1" source="TAPN1_T21_Tau_" target="TAPN1_P6" />
+<outputArc inscription="1" source="TAPN1_T16_ROl_" target="TAPN1_P6" />
+<outputArc inscription="1" source="TAPN1_T17_ROl_" target="TAPN1_P6" />
+<outputArc inscription="1" source="TAPN1_T18_ROl_" target="TAPN1_P6" />
+<outputArc inscription="1" source="TAPN1_T23_Tau_" target="TAPN1_P7" />
+<outputArc inscription="1" source="TAPN1_T43_Tau_" target="TAPN1_P18" />
+<outputArc inscription="1" source="TAPN1_T25_Tau_" target="TAPN1_P8" />
+<outputArc inscription="1" source="TAPN1_T29_RI_" target="TAPN1_P8" />
+<outputArc inscription="1" source="TAPN1_T32_Tau_" target="TAPN1_P9" />
+<outputArc inscription="1" source="TAPN1_T32_Tau_" target="TAPN1_P10" />
+<outputArc inscription="1" source="TAPN1_T33_Tau_" target="TAPN1_P11" />
+<outputArc inscription="1" source="TAPN1_T34_Tau_" target="TAPN1_P19" />
+<outputArc inscription="1" source="TAPN1_T44_RI_" target="TAPN1_P11" />
+<outputArc inscription="1" source="TAPN1_T35_Tau_" target="TAPN1_P13" />
+<outputArc inscription="1" source="TAPN1_T36_Tau_" target="TAPN1_P12" />
+<outputArc inscription="1" source="TAPN1_T37_Tau_" target="TAPN1_P14" />
+<outputArc inscription="1" source="TAPN1_T38_RI_" target="TAPN1_P12" />
+<outputArc inscription="1" source="TAPN1_T39_Tau_" target="TAPN1_P14" />
+<outputArc inscription="1" source="TAPN1_T48_Tau_" target="TAPN1_P23" />
+<outputArc inscription="1" source="TAPN1_T47_Tau_" target="TAPN1_P20" />
+<outputArc inscription="1" source="TAPN1_T46_Tau_" target="TAPN1_P22" />
+<outputArc inscription="1" source="TAPN1_T45_Tau_" target="TAPN1_P21" />
+<outputArc inscription="1" source="TAPN1_T51_Tau_" target="TAPN1_P26" />
+<outputArc inscription="1" source="TAPN1_T50_Tau_" target="TAPN1_P25" />
+<outputArc inscription="1" source="TAPN1_T49_Tau_" target="TAPN1_P24" />
+</net>
+</pnml>
